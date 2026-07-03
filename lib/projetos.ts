@@ -98,4 +98,46 @@ export const projetos: Projeto[] = [
     cor: "#D9784F",
     destaque: true,
   },
+  {
+    slug: "jarvis-assistente-ia",
+    titulo: "JARVIS",
+    cliente: "Projeto pessoal — automação residencial",
+    categoria: "Assistente de voz com IA",
+    ano: "2025",
+    problema:
+      "Precisava de um assistente de voz próprio, sem depender de assistentes prontos de mercado, capaz de responder por voz, controlar o computador e manter contexto entre conversas.",
+    solucao:
+      "Assistente de voz em Python ativado por palma (clap-detection), usando a API da Groq (Llama 3.3 70B) para conversação, com interface gráfica animada em Tkinter, integração de clima e notícias em tempo real, leitura de arquivos, controle do computador e memória persistente entre sessões.",
+    resultado:
+      "Assistente funcional rodando localmente no Windows, com início automático no boot e memória que mantém contexto entre conversas, sem depender de serviços de terceiros para a interface.",
+    metricas: [
+      { label: "Ativação", valor: "Por palma" },
+      { label: "Memória", valor: "Persistente" },
+      { label: "Modelo", valor: "Llama 3.3 70B" },
+    ],
+    stack: ["Python", "Groq API", "Tkinter", "NewsAPI"],
+    cor: "#7FD9A8",
+    destaque: true,
+  },
+  {
+    slug: "sistema-caixa",
+    titulo: "Caixa & Estoque Distribuidora",
+    cliente: "Distribuidora — gestão interna",
+    categoria: "Sistema de gestão local",
+    ano: "2025",
+    problema:
+      "Distribuidora controlava caixa e estoque de forma manual, sem visibilidade clara de entradas, saídas e quantidade real de produtos disponíveis.",
+    solucao:
+      "Sistema local em Python com controle de caixa (entradas e saídas), gestão de estoque por produto e geração de relatórios de vendas, com persistência de dados local e interface simples para uso diário sem depender de internet.",
+    resultado:
+      "Sistema em uso na operação real da distribuidora, dando controle direto sobre o fluxo de caixa e o estoque disponível, com relatórios para acompanhar as vendas ao longo do tempo.",
+    metricas: [
+      { label: "Controle de caixa", valor: "Tempo real" },
+      { label: "Estoque", valor: "Por produto" },
+      { label: "Relatórios", valor: "De vendas" },
+    ],
+    stack: ["Python", "JSON", "Tkinter"],
+    cor: "#D9784F",
+    destaque: true,
+  },
 ];
