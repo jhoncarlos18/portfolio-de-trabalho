@@ -20,7 +20,7 @@ const linhas: Linha[] = [
     delay: 1400,
   },
   { prompt: "~", texto: "./rodar --projetos", delay: 1900 },
-  { texto: "4 sistemas em produção, 1 modelo treinado.", cor: "text-signal", delay: 2300 },
+  { texto: "6 sistemas em ja feitos, todos testados e funcionando 100%.", cor: "text-signal", delay: 2300 },
 ];
 
 export function TerminalHero() {

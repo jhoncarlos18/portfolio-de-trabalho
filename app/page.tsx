@@ -68,7 +68,7 @@ export default function Home() {
           </h2>
           <div className="mt-6 space-y-4 text-balance text-[15px] leading-relaxed text-bone/80 sm:text-base">
             <p>
-              Sou venezuelano, moro em Curitiba e sou dono de uma loja de
+              Sou desenvolvedor moro em Curitiba e sou dono de uma loja de
               conveniência — então sei como é a rotina de quem precisa que a
               tecnologia funcione no dia a dia, sem desculpa.
             </p>
@@ -79,7 +79,7 @@ export default function Home() {
               entregas, landing pages e ferramentas internas.
             </p>
             <p>
-              Trabalho principalmente com Next.js, TypeScript, Tailwind CSS e
+              Trabalho principalmente com Next.js, TypeScript, Html, Python, Tailwind CSS e
               Supabase, sempre com deploy em produção — não fico só no
               protótipo.
             </p>
