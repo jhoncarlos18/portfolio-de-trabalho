@@ -17,10 +17,9 @@ function IconeGithub({ className = "" }: { className?: string }) {
 }
 
 const CONTATOS = {
-  whatsapp: "https://wa.me/5500000000000",
-  email: "mailto:jhon@example.com",
-  linkedin: "https://linkedin.com/in/jhon",
-  github: "https://github.com/jhon",
+  whatsapp: "https://wa.me/5541974023784",
+  email: "j.ortega.tech@gmail.com",
+  github: "https://github.com/jhoncarlos18",
 };
 
 export function ContatoBotoes({ className = "" }: { className?: string }) {
@@ -41,15 +40,6 @@ export function ContatoBotoes({ className = "" }: { className?: string }) {
       >
         <Mail className="h-4 w-4" strokeWidth={2} />
         E-mail
-      </a>
-      <a
-        href={CONTATOS.linkedin}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="glass flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium text-bone transition-colors hover:text-signal"
-      >
-        <IconeLinkedin className="h-4 w-4" />
-        LinkedIn
       </a>
       <a
         href={CONTATOS.github}
